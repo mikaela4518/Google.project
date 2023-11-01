@@ -1,54 +1,56 @@
 /* Original styles */
 
 body {
-    min-height: 100%;
+    margin: 0;
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Button {
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #7f7f7f;
+    font-size: 15PX;
     margin: 0;
 }
 
-
 /*---------------------- header ----------------------*/
 header {
-    height: 100px;
-    text-align: right;
-    padding: 17px 17px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
-header>a:nth-of-type(1) {
-    text-decoration: none;
-    font-family: arial;
+header * {
+    vertical-align: middle;
+}
+
+header>a {
     color: #5F6368;
     font-size: 13PX;
-    margin: 0 12px 0 0;
-}
-
-header>a:nth-of-type(2) {
-    text-decoration: none;
-    font-family: arial;
-    color: #5F6368;
-    font-size: 13PX;
-    margin: 0 22px 0 0;
-}
-
-header>a:nth-of-type(3) {
-    text-decoration: none;
+    margin: 0 7px;
 }
 
 header>a>svg {
     width: 25px;
-    vertical-align: middle;
-    margin: 0 17px 0 0;
+    margin: 0 10px 0 11px;
     fill: #5F6368;
 }
 
-header>a:nth-of-type(4) {
-    text-decoration: none;
-    font-family: arial;
+header>a.Button{
     color: white;
     padding: 10px 27px;
-    border-radius: 4px;
+    border-radius: 5px;
     vertical-align: middle;
-    background-color: 1A73E8;
-    font-size: 14PX;
+    background-color: #1A73E8;
+    font-size: 15PX;
+    margin: 0;
 }
 
 /*---------------------- main ----------------------*/
@@ -171,23 +173,24 @@ footer .group-2 {
     font-family: arial;
     font-size: 14px;
 }
+
 footer .group-2 a:nth-of-type(1) {
-    text-decoration:none;
-    margin:10px;
-    color:#70757A;
-    font-family:arial;
+    text-decoration: none;
+    margin: 10px;
+    color: #70757A;
+    font-family: arial;
 }
 
 footer .group-2 a:nth-of-type(2) {
-    text-decoration:none;
-    margin:10px;
-    color:#70757A;
-    font-family:arial;
+    text-decoration: none;
+    margin: 10px;
+    color: #70757A;
+    font-family: arial;
 }
 
 footer .group-2 a:nth-of-type(3) {
-    text-decoration:none;
-    margin:10px;
-    color:#70757A;
-    font-family:arial;
+    text-decoration: none;
+    margin: 10px;
+    color: #70757A;
+    font-family: arial;
 }
