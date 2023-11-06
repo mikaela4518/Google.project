@@ -2,12 +2,15 @@
 
 ### طراحی فرانت صفحه سرچ گوگل &#128269; :
 <br><br>
-![google](https://github.com/mikaela4518/Google.project/assets/143528080/280ed93e-70c0-4a80-aee9-5fd3b1ffc3ff)
+![Google](https://github.com/mikaela4518/Google.project/assets/143528080/5e51d7b4-af4b-404a-b0ef-16eef06c4170)
+
 
 <br>
 
-#### This is my frist project &#128516; <br>
-- Attention to detail in project output <br>
-- Made with html-css language
--
+#### This project was created for a work sample &#128516; <br>
+- Attention to detail in project output
+- Responsive
+- my frist project
+- Attention to clean code
+  
 
