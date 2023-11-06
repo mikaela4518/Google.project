@@ -38,6 +38,10 @@ header>a {
     margin: 0 7px;
 }
 
+header>a:hover {
+    text-decoration: underline;
+}
+
 header>a>svg {
     width: 25px;
     margin: 0 10px 0 11px;
